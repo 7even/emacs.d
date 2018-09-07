@@ -259,6 +259,10 @@
 (global-emojify-mode)
 (setq emojify-inhibit-major-modes (list 'ruby-mode 'magit-mode))
 
+(eval-after-load 'inf-ruby
+  '(define-key inf-ruby-minor-mode-map
+     (kbd "C-c C-s") 'inf-ruby-console-auto))
+
 ;; fine-tune Fira Code so it does not break Helm
 (when (window-system)
   (set-default-font "Fira Code"))
