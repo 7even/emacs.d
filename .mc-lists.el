@@ -24,6 +24,7 @@
         paredit-forward-slurp-sexp
         paredit-forward-up
         paredit-open-square
+        transpose-sexps
         yaml-electric-backspace
         yaml-electric-dash-and-dot
         ))
