@@ -34,6 +34,7 @@
       '(
         ace-window
         beginning-of-buffer
+        cljr-remove-let
         cljr-slash
         cljr-thread
         end-of-buffer
