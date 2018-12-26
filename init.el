@@ -172,6 +172,8 @@
  ;; If there is more than one, they won't work right.
  )
 
+(tool-bar-mode -1)
+
 (defun switch-to-previous-buffer ()
   "Switch to most recent buffer. Repeated calls toggle back and forth between the most recent two buffers."
   (interactive)
