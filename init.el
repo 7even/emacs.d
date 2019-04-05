@@ -157,6 +157,8 @@
  '(custom-safe-themes
    (quote
     ("d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" default)))
+ '(mac-command-modifier (quote super))
+ '(mac-option-modifier (quote meta))
  '(magit-fetch-arguments (quote ("--prune")))
  '(magit-push-always-verify nil)
  '(package-selected-packages
