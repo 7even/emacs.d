@@ -213,6 +213,8 @@
 (global-set-key (kbd "s-8") (kbd "s-r 8"))
 (global-set-key (kbd "s-9") (kbd "s-r 9"))
 
+(global-set-key (kbd "s-k") 'kill-this-buffer)
+
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
