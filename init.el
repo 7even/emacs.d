@@ -242,6 +242,8 @@
 
 (global-set-key (kbd "M-\\") 'shrink-whitespace)
 
+(global-set-key (kbd "s-u") 'revert-buffer)
+
 (avy-setup-default)
 (global-set-key (kbd "s-d") 'avy-goto-word-1)
 
