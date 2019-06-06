@@ -163,7 +163,7 @@
  '(magit-push-always-verify nil)
  '(package-selected-packages
    (quote
-    (clojure-mode emojify cider rjsx-mode kubernetes yaml-mode textmate terraform-mode tagedit solarized-theme smex slim-mode shrink-whitespace rainbow-delimiters powerline org magit ido-ubiquitous helm-projectile grizzl expand-region exec-path-from-shell dockerfile-mode company clojure-mode-extra-font-locking clj-refactor ace-window)))
+    (clojure-mode cider rjsx-mode kubernetes yaml-mode textmate terraform-mode tagedit solarized-theme smex slim-mode shrink-whitespace rainbow-delimiters powerline org magit ido-ubiquitous helm-projectile grizzl expand-region exec-path-from-shell dockerfile-mode company clojure-mode-extra-font-locking clj-refactor ace-window)))
  '(ruby-align-to-stmt-keywords (quote (def if case)))
  '(ruby-insert-encoding-magic-comment nil)
  '(split-height-threshold 200))
@@ -261,9 +261,6 @@
 (define-key global-map "\C-cc" 'org-capture)
 
 (delete-selection-mode t)
-
-(global-emojify-mode)
-(setq emojify-inhibit-major-modes (list 'ruby-mode 'magit-mode))
 
 (eval-after-load 'inf-ruby
   '(define-key inf-ruby-minor-mode-map

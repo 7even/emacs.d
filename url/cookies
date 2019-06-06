@@ -2,9 +2,15 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- 'nil)
+ '((".github.com"
+  [url-cookie "_octo" "GH1.1.995182054.1559519416" "Wed, 02 Jun 2021 23:50:16 -0000" "/" ".github.com" nil])
+ ("github.com"
+  [url-cookie "has_recent_activity" "1" "Mon, 03 Jun 2019 00:50:16 -0000" "/" "github.com" nil]))
+)
 (setq url-cookie-secure-storage
- 'nil)
+ '((".github.com"
+  [url-cookie "logged_in" "no" "Thu, 02 Jun 2039 23:50:16 -0000" "/" ".github.com" t]))
+)
 
 ;; Local Variables:
 ;; version-control: never
