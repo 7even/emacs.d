@@ -24,8 +24,10 @@
         paredit-forward-slurp-sexp
         paredit-forward-up
         paredit-open-square
+        paredit-wrap-round
         shrink-whitespace
         transpose-sexps
+        transpose-words
         yaml-electric-backspace
         yaml-electric-dash-and-dot
         ))
