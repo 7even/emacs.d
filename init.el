@@ -162,6 +162,7 @@
  '(mac-option-modifier (quote meta))
  '(magit-fetch-arguments (quote ("--prune")))
  '(magit-push-always-verify nil)
+ '(nrepl-sync-request-timeout 30)
  '(package-selected-packages
    (quote
     (clojure-mode cider rjsx-mode kubernetes yaml-mode textmate terraform-mode tagedit solarized-theme smex slim-mode shrink-whitespace rainbow-delimiters powerline org magit ido-ubiquitous helm-projectile grizzl expand-region exec-path-from-shell dockerfile-mode company clojure-mode-extra-font-locking clj-refactor ace-window)))
