@@ -265,6 +265,8 @@
 (setq org-default-notes-file (concat org-directory "/work.org"))
 (define-key global-map "\C-cc" 'org-capture)
 
+(setq org-element-use-cache nil)
+
 (delete-selection-mode t)
 
 (eval-after-load 'inf-ruby
