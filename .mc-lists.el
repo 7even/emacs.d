@@ -7,6 +7,7 @@
         c-electric-delete-forward
         c-electric-paren
         c-electric-semi&comma
+        cljr-raise-sexp
         cljr-splice-sexp-killing-backward
         forward-sexp
         indent-for-tab-command
@@ -41,5 +42,6 @@
         cljr-thread
         end-of-buffer
         paredit-close-round
+        paredit-forward-barf-sexp
         paredit-open-round
         ))
