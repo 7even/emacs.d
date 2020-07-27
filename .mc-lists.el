@@ -25,6 +25,7 @@
         paredit-forward-kill-word
         paredit-forward-slurp-sexp
         paredit-forward-up
+        paredit-open-curly
         paredit-open-square
         paredit-wrap-round
         shrink-whitespace
