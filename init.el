@@ -262,7 +262,7 @@
 
 (setq org-agenda-files (list "~/org/work.org"))
 
-(setq org-default-notes-file (concat org-directory "/work.org"))
+(setq org-default-notes-file "~/org/work.org")
 (define-key global-map "\C-cc" 'org-capture)
 
 (setq org-element-use-cache nil)
