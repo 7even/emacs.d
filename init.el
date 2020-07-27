@@ -169,6 +169,14 @@
     (projectile clojure-mode cider rjsx-mode kubernetes yaml-mode textmate terraform-mode tagedit solarized-theme smex slim-mode shrink-whitespace rainbow-delimiters powerline org magit ido-ubiquitous helm-projectile grizzl expand-region exec-path-from-shell dockerfile-mode company clojure-mode-extra-font-locking clj-refactor ace-window)))
  '(ruby-align-to-stmt-keywords (quote (def if case)))
  '(ruby-insert-encoding-magic-comment nil)
+ '(safe-local-variable-values
+   (quote
+    ((eval progn
+           (make-variable-buffer-local
+            (quote cider-jack-in-nrepl-middlewares))
+           (add-to-list
+            (quote cider-jack-in-nrepl-middlewares)
+            "shadow.cljs.devtools.server.nrepl/middleware")))))
  '(split-height-threshold 200))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
