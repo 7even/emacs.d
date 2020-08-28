@@ -150,7 +150,6 @@
  '(blink-cursor-blinks 0)
  '(blink-cursor-delay 0.2)
  '(cider-boot-parameters "repl -s -b localhost wait")
- '(cider-clojure-cli-parameters "-A:dev -m nrepl.cmdline --middleware '%s'")
  '(cider-repl-display-help-banner nil)
  '(coffee-tab-width 2)
  '(column-number-mode t)
