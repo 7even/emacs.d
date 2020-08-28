@@ -39,9 +39,11 @@
       '(
         ace-window
         beginning-of-buffer
+        bookmark-jump
         cljr-remove-let
         cljr-thread
         end-of-buffer
+        helm-projectile-find-file
         paredit-close-round
         paredit-forward-barf-sexp
         paredit-open-round
