@@ -280,5 +280,5 @@
   '(define-key inf-ruby-minor-mode-map
      (kbd "C-c C-s") 'inf-ruby-console-auto))
 
-(set-default-font "Fira Code")
+(set-frame-font "Fira Code")
 (mac-auto-operator-composition-mode)
