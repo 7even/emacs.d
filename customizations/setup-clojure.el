@@ -72,6 +72,10 @@
 ;; Don't prompt for symbol after C-c C-d d
 (setq cider-prompt-for-symbol nil)
 
+;; Make Cider work correctly with shadow-cljs
+;; (see https://docs.cider.mx/cider/0.25/cljs/configuration.html#enhanced-completion)
+(setq cider-enhanced-cljs-completion-p nil)
+
 ;; Use clojure mode for other extensions
 (add-to-list 'auto-mode-alist '("\\.edn$" . clojure-mode))
 (add-to-list 'auto-mode-alist '("\\.boot$" . clojure-mode))
