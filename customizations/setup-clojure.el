@@ -81,6 +81,13 @@
 (add-to-list 'auto-mode-alist '("\\.boot$" . clojure-mode))
 (add-to-list 'auto-mode-alist '("lein-env" . enh-ruby-mode))
 
+;; Use sane indentation for re-frame subscriptions, event handlers and effects.
+(define-clojure-indent
+  (rf/reg-sub 1)
+  (rf/reg-event-db 1)
+  (rf/reg-event-fx 1)
+  (rf/reg-fx 1))
+
 
 ;; key bindings
 ;; these help me out with the way I usually develop web apps
