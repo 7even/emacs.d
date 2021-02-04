@@ -27,7 +27,7 @@
 
 (require 'clj-refactor)
 
-(setq cljr-warn-on-eval nil)
+;; (setq cljr-warn-on-eval nil)
 
 (defun my-clojure-mode-hook ()
   (clj-refactor-mode 1)
