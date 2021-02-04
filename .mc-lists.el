@@ -14,6 +14,8 @@
         indent-for-tab-command
         indent-new-comment-line
         kill-region
+        org-delete-char
+        org-self-insert-command
         paredit-backward
         paredit-backward-down
         paredit-backward-kill-word
